@@ -22,12 +22,20 @@ div {
   #main img {
     max-width: 90%;
   }
+
+  img#sign-off {
+    max-width: 40%;
+  }
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
   #main img {
     max-width: 65%;
+  }
+
+  img#sign-off {
+    max-width: 30%;
   }
 }
 
@@ -36,11 +44,17 @@ div {
   #main img {
     max-width: 65%;
   }
+  img#sign-off {
+    max-width: 20%;
+  }
 }
 
 /* Huge */
 @media only screen and (min-width: 1280px) {
   #main img {
     max-width: 65%;
+  }
+  img#sign-off {
+    max-width: 20%;
   }
 }

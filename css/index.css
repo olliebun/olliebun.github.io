@@ -1,0 +1,32 @@
+div {
+  max-width: 90%;
+}
+
+
+/* # Mobile */
+@media screen and (min-width: 480px) {
+  #main>img {
+    max-width: 90%;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  #main>img {
+    max-width: 50%;
+  }
+}
+
+/* Desktop */
+only screen and (min-width: 992px) {
+  #main>img {
+    max-width: 60%;
+  }
+}
+
+/* Huge */
+only screen and (min-width: 1280px) {
+  #main>img {
+    max-width: 50%;
+  }
+}

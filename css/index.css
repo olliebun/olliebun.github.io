@@ -5,32 +5,42 @@ body {
 div {
   max-width: 90%;
 }
+/* # Weird and tiny */
+/* @media screen and (max-width: 479px) {
+  #main img {
+    max-width: 90%;
+  }
+} */
+
+.youtube-embed {
+  max-width: 100%;
+}
 
 
-/* # Mobile */
-@media screen and (min-width: 480px) {
-  #main>img {
+/* # Mobile or smaller*/
+@media screen and (max-width: 767px) {
+  #main img {
     max-width: 90%;
   }
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-  #main>img {
-    max-width: 50%;
+  #main img {
+    max-width: 65%;
   }
 }
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
-  #main>img {
-    max-width: 60%;
+  #main img {
+    max-width: 65%;
   }
 }
 
 /* Huge */
 @media only screen and (min-width: 1280px) {
-  #main>img {
-    max-width: 50%;
+  #main img {
+    max-width: 65%;
   }
 }

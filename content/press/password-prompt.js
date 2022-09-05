@@ -10,7 +10,7 @@ const digest = async ({ algorithm = "SHA-256", message }) =>
     .join("");
 
 function buildURL(hashedPassword) {
-  return "/press/protected/" + hashedPassword + ".html";
+  return "/content/press/protected/" + hashedPassword + ".html";
 }
 
 window.addEventListener("load", () => {

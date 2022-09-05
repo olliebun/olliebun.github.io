@@ -16,6 +16,10 @@ div {
   max-width: 100%;
 }
 
+.dim-text {
+  color: grey;
+}
+
 
 /* # Mobile or smaller*/
 @media screen and (max-width: 767px) {
